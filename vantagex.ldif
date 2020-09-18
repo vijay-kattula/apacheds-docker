@@ -1,0 +1,23 @@
+version: 1
+
+dn: dc=ai
+objectClass: extensibleObject
+objectClass: domain
+objectClass: top
+dc: ai
+
+dn: dc=vantagex,dc=ai
+objectClass: extensibleObject
+objectClass: domain
+objectClass: top
+dc: vantagex
+
+dn: ou=Users,dc=vantagex,dc=ai
+objectClass: organizationalUnit
+objectClass: top
+ou: Users
+
+dn: ou=Groups,dc=vantagex,dc=ai
+objectClass: organizationalUnit
+objectClass: top
+ou: Groups
